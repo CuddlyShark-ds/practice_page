@@ -6,10 +6,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-html, body {
-    height: 100%;
-}
-
 .section-one {
     background-color: #1F2937;
     padding: 0px 100px 0px 100px;
@@ -36,11 +32,12 @@ html, body {
 
 .content-one{
     display: flex;
-    padding: 20px 0 20px 0;
+    justify-content: space-between;
+    padding: 75px 50px 100px 50px;
 }
 
 .content-one div {
-    flex-basis: 50%;
+    flex-basis: 45%;
 }
 
 .hero-main-text {
@@ -72,8 +69,7 @@ button {
 }
 
 .section-two {
-    padding: 0px 100px 0px 100px;
-    margin-bottom: 25px;
+    padding: 0 100px 100px 100px;
 }
 
 .title {
@@ -82,27 +78,28 @@ button {
     font-weight: 900;
     color: #1F2937;
 
-    padding: 15px 0px;
+    padding: 50px 0px;
 }
 
 .flex-row {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .image-info {
-    width: 100px;
+    width: 150px;
 }
 
 .box {
-    height: 100px;
+    height: 150px;
     border: 4px #3882F6 solid;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .section-three {
-    padding: 25px 200px 25px 200px;
+    padding: 50px 200px 50px 200px;
     background-color: #E5E7EB;
 }
 
@@ -126,7 +123,7 @@ button {
     border-radius: 15px;
     max-height: 20%;
     padding: 50px 15px 50px 15px;
-    margin: 30px 100px 30px 100px;
+    margin: 50px 100px 50px 100px;
 }
 
 .call-to-action {
@@ -143,4 +140,5 @@ button {
     align-items: center;
     color: #E5E7EB;
     background-color: #1F2937;
+    padding: 30px 0;
 }
